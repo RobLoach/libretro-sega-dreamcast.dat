@@ -1,4 +1,4 @@
-default: tmp/Sega\ -\ Mega\ CD.dat
+default: tmp/Sega\ -\ Mega-CD\ -\ Sega\ CD.dat
 
 node_modules:
 	npm install
@@ -13,7 +13,7 @@ tmp/redump.xml: tmp/redump.zip
 	unzip tmp/redump.zip -d tmp
 	mv tmp/*.dat tmp/redump.xml
 
-tmp/Sega\ -\ Mega\ CD.dat: tmp/redump.xml
+tmp/Sega\ -\ Mega-CD\ -\ Sega\ CD.dat: tmp/redump.xml
 	node .
 
 clean:

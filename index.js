@@ -43,7 +43,7 @@ async.map(files, processXml, function (err, results) {
 	}
 
 	// Write the new .dat file.
-	fs.writeFileSync('tmp/Sega - Mega CD.dat', output)
+	fs.writeFileSync('tmp/Sega - Mega-CD - Sega CD.dat', output)
 })
 
 /**

@@ -1,8 +1,8 @@
 {
   "name": "libretro-database-mega-cd",
-  "title": "Sega - Mega CD",
-  "version": "0.0.1",
-  "description": "libretro-database's Sega - Mega CD.dat",
+  "title": "Sega - Mega-CD - Sega CD",
+  "version": "0.0.2",
+  "description": "libretro-database's DAT file for Sega - Mega-CD - Sega CD",
   "private": true,
   "main": "index.js",
   "scripts": {
