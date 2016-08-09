@@ -1,0 +1,29 @@
+{
+  "name": "libretro-database-mega-cd",
+  "title": "Sega - Mega CD",
+  "version": "0.0.1",
+  "description": "libretro-database's Sega - Mega CD.dat",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobLoach/libretro-database-sega-mega-cd.git"
+  },
+  "author": "Rob Loach (http://robloach.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobLoach/libretro-database-sega-mega-cd/issues"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "homepage": "https://github.com/RobLoach/libretro-database-sega-mega-cd",
+  "dependencies": {
+    "async": "^2.0.1",
+    "sort-object": "^3.0.2",
+    "xml2js": "^0.4.17"
+  }
+}
