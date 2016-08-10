@@ -1,8 +1,8 @@
 {
-  "name": "libretro-database-mega-cd",
-  "title": "Sega - Mega-CD - Sega CD",
-  "version": "0.0.2",
-  "description": "libretro-database's DAT file for Sega - Mega-CD - Sega CD",
+  "name": "libretro-nec-pc-engine-cd-turbografx-cd",
+  "title": "NEC - PC Engine CD - TurboGrafx-CD",
+  "version": "0.0.1",
+  "description": "libretro-database's DAT file for NEC - PC Engine CD - TurboGrafx-CD",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RobLoach/libretro-database-sega-mega-cd.git"
+    "url": "https://github.com/RobLoach/libretro-nec-pc-engine-cd-turbografx-cd.git"
   },
   "author": "Rob Loach (http://robloach.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RobLoach/libretro-database-sega-mega-cd/issues"
+    "url": "https://github.com/RobLoach/libretro-nec-pc-engine-cd-turbografx-cd/issues"
   },
   "engines": {
     "node": ">=6"
   },
-  "homepage": "https://github.com/RobLoach/libretro-database-sega-mega-cd",
+  "homepage": "https://github.com/RobLoach/libretro-nec-pc-engine-cd-turbografx-cd",
   "dependencies": {
     "async": "^2.0.1",
     "sort-object": "^3.0.2",
