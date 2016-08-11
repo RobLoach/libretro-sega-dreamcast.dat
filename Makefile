@@ -4,7 +4,7 @@ node_modules:
 	npm install
 
 tmp: node_modules
-	mkdir tmp
+	mkdir -p tmp
 
 tmp/redump.zip: tmp
 	wget -O tmp/redump.zip http://redump.org/datfile/pce/

@@ -3,6 +3,7 @@ var xml = require('xml2js').Parser()
 var pkg = require('./package')
 const async = require('async')
 const sort = require('sort-object')
+const fileExists = require('file-exists')
 
 // Construct the header.
 var output = `clrmamepro (
@@ -15,7 +16,8 @@ var output = `clrmamepro (
 
 // Read every XML dat file.
 var files = [
-	'tmp/redump.xml'
+	'tmp/redump.xml',
+	'tmp/trurip.xml'
 ]
 
 // Process each XML file.
@@ -50,6 +52,9 @@ async.map(files, processXml, function (err, results) {
  * Process the given XML file.
  */
 function processXml(path, done) {
+	if (!fileExists(path)) {
+		throw new Error(`$path does not exist. Make sure to download the DAT files correctly.`)
+	}
 	// Read in the file asyncronously.
 	fs.readFile(path, {encoding: 'utf8'}, (err, data) => {
 		if (err) {

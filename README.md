@@ -5,6 +5,7 @@ This builds [RetroArch](http://www.libretro.com/)'s [`Sega - Mega-CD - Sega CD.d
 ## Sources
 
 - [redump.org](http://redump.org)
+- [trurip](http://database.trurip.org)
 
 ## Dependencies
 
@@ -15,5 +16,6 @@ This builds [RetroArch](http://www.libretro.com/)'s [`Sega - Mega-CD - Sega CD.d
 
 ## Usage
 
-1. Run `make`
-2. Find the built `tmp/Sega - Mega-CD - Sega CD.dat`
+1. Download the [trurip PC Engine CD & TurboGrafx CD DAT](http://database.trurip.org/index.php?page=mnu-Database-DAT-List) to `tmp/trurip.xml`
+2. Run `make`
+3. Find the built `tmp/Sega - Mega-CD - Sega CD.dat`

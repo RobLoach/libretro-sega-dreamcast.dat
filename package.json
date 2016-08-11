@@ -1,7 +1,7 @@
 {
   "name": "libretro-nec-pc-engine-cd-turbografx-cd",
   "title": "NEC - PC Engine CD - TurboGrafx-CD",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "libretro-database's DAT file for NEC - PC Engine CD - TurboGrafx-CD",
   "private": true,
   "main": "index.js",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/RobLoach/libretro-nec-pc-engine-cd-turbografx-cd",
   "dependencies": {
     "async": "^2.0.1",
+    "file-exists": "^2.0.0",
     "sort-object": "^3.0.2",
     "xml2js": "^0.4.17"
   }
