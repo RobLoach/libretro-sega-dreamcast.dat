@@ -1,8 +1,8 @@
 {
-  "name": "libretro-nec-pc-engine-cd-turbografx-cd",
-  "title": "NEC - PC Engine CD - TurboGrafx-CD",
-  "version": "0.1.0",
-  "description": "libretro-database's DAT file for NEC - PC Engine CD - TurboGrafx-CD",
+  "name": "libretro-sega-dreamcast",
+  "title": "Sega - Dreamcast",
+  "version": "0.1.1",
+  "description": "libretro-database's DAT file for Sega - Dreamcast",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -10,17 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RobLoach/libretro-nec-pc-engine-cd-turbografx-cd.git"
+    "url": "https://github.com/RobLoach/libretro-sega-dreamcast.dat.git"
   },
   "author": "Rob Loach (http://robloach.net)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RobLoach/libretro-nec-pc-engine-cd-turbografx-cd/issues"
+    "url": "https://github.com/RobLoach/libretro-sega-dreamcast.dat/issues"
   },
   "engines": {
     "node": ">=6"
   },
-  "homepage": "https://github.com/RobLoach/libretro-nec-pc-engine-cd-turbografx-cd",
+  "homepage": "https://github.com/RobLoach/libretro-sega-dreamcast.dat",
   "dependencies": {
     "async": "^2.0.1",
     "file-exists": "^2.0.0",

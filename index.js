@@ -16,8 +16,7 @@ var output = `clrmamepro (
 
 // Read every XML dat file.
 var files = [
-	'tmp/redump.xml',
-	'tmp/trurip.xml'
+	'tmp/redump.xml'
 ]
 
 // Process each XML file.
@@ -89,7 +88,7 @@ function getGamesFromXml(result) {
 		// Find Track 1, since that is the only one to load.
 		for (var x in game.rom) {
 			var rom = game.rom[x]['$']
-			if (rom.name.indexOf('.cue') >= 0) {
+			if (rom.name.indexOf('.gdi') >= 0) {
 				out[game.description[0]] = rom
 				break
 			}
